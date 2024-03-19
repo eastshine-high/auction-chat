@@ -1,0 +1,8 @@
+{
+  "name": "auction-message-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eastshine-high/auction-message-server.git",
+  "author": "eastshine-high <eastshine.high@gmail.com>",
+  "license": "MIT"
+}
