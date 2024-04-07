@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:eastshine-high/auction-message-server.git",
   "author": "eastshine-high <eastshine.high@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^4.7.5"
+  }
 }
