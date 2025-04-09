@@ -12,12 +12,12 @@ const {Server} = require("socket.io"); //22:30
 const port = normalizePort(process.env.PORT || '5001');
 app.set('port', port);
 const server = http.createServer(app);
-const io = socketIo(server);
-/*const io = new Server(server, { // 22:30
+// const io = socketIo(server);
+const io = new Server(server, { // 22:30
   cors: {
     origin: "http://localhost:3000",
   },
-});*/
+});
 
 /**
  * Listen on provided port, on all network interfaces.
